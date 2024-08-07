@@ -17,7 +17,7 @@
     3. Migrate the Database
 
         Run the following command to apply the initial migrations:
-        a. docker-compose run web python manage.py makemigration socialmedia_app
+        a. docker-compose run web python manage.py makemigrations socialmedia_app
         b. docker-compose run web python manage.py migrate socialmedia_app
         c. docker-compose run web python manage.py migrate
         d. docker-compose run web python manage.py createsuperuser(optional)
